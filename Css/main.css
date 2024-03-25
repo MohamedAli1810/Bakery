@@ -1,0 +1,513 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.wb {
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+/* ////////////////////////// buttons learn more & contact us ///////////////// */
+.buttons {
+  background-color: #8e7754;
+  border: black unset;
+  border-radius: 7px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 15px;
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  background-color: white;
+  color: black;
+  border: 2px unset #8e7754;
+}
+
+.buttons2 {
+  background-color: transparent;
+  border: black unset;
+  border-radius: 7px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.buttons2:hover {
+  background-color: white;
+  color: black;
+  border: 2px unset white;
+}
+
+/* /////////////////////////////////// end buttons ////////////////// */
+/* /////////////////////////////////// family bakery /////////////// */
+.sh {
+  margin-top: 150px;
+  padding-top: 30px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 24px;
+}
+
+/* <!-- (((((((((((((((((((((( home image   )))))))))))))))))))))) --> */
+
+.bg-img {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  height: calc(100vh);
+}
+
+/* <!-- (((((((((((((((((((((( navbar  )))))))))))))))))))))) --> */
+
+.homet {
+  display: inline-block;
+  height: 100px;
+  width: 58%;
+  text-align: right;
+  color: white;
+  font-size: 17px;
+  padding: 50px 0px px;
+  text-align: center;
+}
+
+.homet a {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 34px 15px;
+  text-decoration: none;
+  margin: 0%;
+  font-size: 18px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+}
+
+.about {
+  color: white;
+  width: 100%;
+  padding: 19px 19px 19px 19px;
+  color: inherit;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.homeimg1 {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+}
+
+.homeimg {
+  width: 100%;
+  height: 60px;
+}
+
+.homeimg img {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 180px;
+}
+
+/* <!-- ((((((((((((((((((((((  end  )))))))))))))))))))))) --> */
+/* <!-- ((((((((((((((((((((((  who are you ?  )))))))))))))))))))))) --> */
+.who {
+  width: 90%;
+  margin: 50px auto;
+}
+.photow {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+
+.photo-img {
+  width: 85%;
+  margin-left: 50px;
+}
+
+.photo-img img {
+  width: 100%;
+}
+
+.word {
+  width: 45%;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.item {
+  width: 85%;
+  padding-bottom: 0px;
+}
+.word h2 {
+  font-size: 32px;
+}
+
+.word p {
+  color: rgb(104, 104, 104);
+}
+
+.word img {
+  border: 1px solid #8e7754;
+  border-radius: 50%;
+  padding: 4px;
+  width: 35px;
+}
+
+.word li span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 55px;
+  margin-left: 10px;
+}
+
+.word li {
+  list-style: none;
+}
+
+/* <!-- ((((((((((((((((((((((  end  )))))))))))))))))))))) --> */
+/* <!-- ((((((((((((((((((((((  our-location  )))))))))))))))))))))) --> */
+.our-location {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.who2 {
+  width: 80%;
+  margin: 0px auto;
+  padding: 50px 0px;
+  /* background-color: #767676; */
+}
+.parent3-photo {
+  display: inline-block;
+  width: 55%;
+  text-align: center;
+}
+.photow2 {
+  width: 85%;
+  text-align: right;
+}
+.photow2 img {
+  width: 100%;
+}
+.word2 {
+  width: 43%;
+  /* height: 600px; */
+  display: inline-block;
+  text-align: left;
+  font-size: 17px;
+  /* vertical-align: middle; */
+}
+.word2 h2 {
+  font-size: 32px;
+}
+.word2 p {
+  color: rgb(104, 104, 104);
+}
+
+/* <!-- ((((((((((((((((((((((  end  )))))))))))))))))))))) --> */
+/* ((((((((((((((((((((((  seciton 4  )))))))))))))))))))))) --> */
+.parent4 {
+  width: 100%;
+  /* background-color: blue; */
+  margin-top: 70px;
+}
+
+.clear-fix {
+  clear: both;
+}
+.child1-p4 {
+  width: 80%;
+  /* background-color: aqua; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.child2-p4 {
+  text-align: center;
+  width: 95%;
+  /* background-color: aquamarine; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.child3-p4 {
+  width: 100%;
+  text-align: center;
+  /* background-color: #f8f8f8; */
+  font-size: 17px;
+  display: block;
+  margin: 0px 0px 60px 0px;
+  padding-bottom: 20px;
+}
+
+.child3-p4 h3 {
+  font-size: 35px;
+  color: rgb(48, 48, 48);
+}
+
+.child3-p4 p {
+  color: RGB(136, 136, 136);
+  text-align: center;
+}
+
+.photos-baking {
+  width: 90%;
+  float: left;
+  text-align: center;
+  padding-left: 70px;
+}
+
+.photo1-baking {
+  width: 30%;
+  float: left;
+  margin: 0px 10px;
+}
+
+.photo1-baking1 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.photo1-baking1 img {
+  width: 100%;
+}
+/* <!-- ((((((((((((((((((((((  end  )))))))))))))))))))))) --> */
+/* ((((((((((((((((((((((  seciton 5  )))))))))))))))))))))) --> */
+.parent5 {
+  width: 100%;
+  /* float: left; */
+  background-color: #f8f8f8;
+  margin-top: 70px;
+  height: 65vh;
+  padding-top: 50px;
+}
+.child1-p5 {
+  width: 80%;
+  float: left;
+  /* margin-left: auto;
+  margin-right: auto; */
+  position: relative;
+  left: 10%;
+}
+.child2-p5 {
+  width: 100%;
+}
+.child2-p5 h2 {
+  font-size: 32px;
+}
+.child2-p5 p {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+}
+.child3-p5 {
+  width: 40%;
+  float: left;
+  margin: 20px 50px 0px 0px;
+}
+.child3-p5 li {
+  list-style: none;
+}
+.child3-p5 li span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 48px;
+  margin-left: 10px;
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+}
+.child3-p5 img {
+  width: 30px;
+  border: 1px solid #8e7754;
+  background-color: #8e7754;
+  border-radius: 50%;
+}
+.photo1-map {
+  width: 40%;
+  float: left;
+  margin-top: 10px;
+}
+.photo1-map2 {
+  width: 100%;
+}
+/* <!-- ((((((((((((((((((((((  end  )))))))))))))))))))))) --> */
+/* ((((((((((((((((((((((  seciton 6  )))))))))))))))))))))) --> */
+.parent6 {
+  width: 100%;
+  background-color: RGB(64, 61, 56);
+  height: 70vh;
+}
+.child1-p6 {
+  width: 85%;
+  float: left;
+  margin: 0px auto;
+  position: relative;
+  left: 10%;
+  top: 20%;
+  height: 55vh;
+}
+.child2-p6 {
+  width: 20%;
+  text-align: left;
+  float: left;
+}
+.child3-p6 h4 {
+  color: #ffffff;
+  font-size: 18px;
+}
+.child3-p6 p {
+  color: #969696;
+  font-size: 16px;
+  text-align: left;
+}
+.child4-p6 {
+  width: 20%;
+  text-align: left;
+  float: left;
+  margin-right: 10px;
+}
+.child4-p6 h4 {
+  color: #ffffff;
+  font-size: 18px;
+}
+.child4-p6 li {
+  display: inline-block;
+  list-style: none;
+  color: #969696;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 45px;
+  margin-left: 10px;
+}
+.child4-p6 img {
+  width: 20px;
+}
+.child5-p6 {
+  width: 20%;
+  float: left;
+}
+.child6-p6{
+  margin-right: 5px;
+}
+.child6-p6 h4 {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+}
+.child6-p6 li {
+  list-style: none;
+  display: inline-block;
+  color: #969696;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 48px;
+  margin-left: 10px;
+}
+.child6-p6 img {
+  width: 20px;
+}
+.child7-p6 {
+  width: 20%;
+  float: left;
+  background-image: url(/images/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+}
+.child8-p6 h4 {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+}
+.child9-p6 img {
+  width: 35px;
+}
+.child9-p6 span {
+  list-style: none;
+  display: inline-block;
+  color: #969696;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 60px;
+  margin-left: 10px;
+}
+.child9-p6 span a {
+  list-style: none;
+  text-decoration: none;
+  color: #969696;
+  transition-duration: 0.4s;
+  left: 10px;
+}
+.child9-p6 span a:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px unset #8e7754;
+}
+/* <!-- ((((((((((((((((((((((  end  )))))))))))))))))))))) --> */
+/* ((((((((((((((((((((((  seciton 7  )))))))))))))))))))))) --> */
+.parent7 {
+  width: 100%;
+  height: 40vh;
+  background-color: #353330;
+}
+.child1-p7 {
+  width: 80%;
+}
+.child2-p7 {
+  width: 100%;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin: 0px auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.child2-p7 img {
+  text-align: center;
+  width: 30%;
+}
+.child3-p7 {
+  width: 100%;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin: 0px auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.child3-p7 p {
+  color: #969696;
+  font-size: 16px;
+  text-align: center;
+}
+.child4-p7 {
+  width: 100%;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin: 0px auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.child4-p7 a img {
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #353330;
+  background-color: #484848;
+  margin-right: 5px;
+}
